@@ -42,6 +42,8 @@ h1, h2, h3, h4, p, span, div {
       width: 40%; }
     .left_bar .details .items .data .divider {
       width: 8%; }
+    .left_bar .details .items .data .progress {
+      width: 60%; }
 
 .right_bar .user_name {
   text-transform: uppercase;
