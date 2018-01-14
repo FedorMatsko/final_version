@@ -1,0 +1,90 @@
+body{
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,p,span,div{
+  font-family: 'Roboto', sans-serif;
+}
+
+.left_bar{
+  .avatar{
+    img{
+      width:100%;
+    }
+  }
+  .contacts{
+    .contact{
+      color: #fff;
+      display: flex;
+      align-items: center;
+      padding: 18px;
+      .icon_border{
+        border: 2px solid #fff;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 30px;
+        i{
+          font-size: 24px;
+        }
+      }
+      .content{
+        font-size: 18px;
+      }
+      &.phone{
+        background-color: #1c578f;
+      }
+      &.site{
+        background-color: #1c6eb8;
+      }
+      &.email{
+        background-color: #1d8bd8;
+      }
+    }
+  }
+  .details{
+    background-color: #e0e0e2;
+    .items{
+      h3{
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      .data{
+        display: flex;
+        .title{
+          width:40%;
+        }
+        .divider{
+          width:8%;
+        }
+        .value{
+
+        }
+        .progress{
+          width:70%;
+        }
+      }
+    }
+  }
+}
+.right_bar{
+  .user_name{
+    text-transform: uppercase;
+    color: #1d9feb;
+    letter-spacing: 5px;
+
+  }
+  .experience{
+    background-color: #e0e1e3;
+    h3{
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+}
