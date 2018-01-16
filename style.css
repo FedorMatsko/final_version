@@ -66,7 +66,8 @@ h1, h2, h3, h4, p, span, div {
     margin-top: 10px;
     margin-bottom: 10px; }
 .right_bar .history {
-  display: flex; }
+  display: flex;
+  margin-top: 20px; }
   .right_bar .history .function {
     width: 40%; }
     .right_bar .history .function .bold {
@@ -86,7 +87,8 @@ h1, h2, h3, h4, p, span, div {
       text-transform: uppercase;
       color: #6E6E6E; }
 .right_bar .hobbies {
-  display: flex; }
+  display: flex;
+  margin-top: 20px; }
   .right_bar .hobbies .fa {
     font-size: 60px;
     color: #1d9feb; }
