@@ -33,9 +33,16 @@ h1, h2, h3, h4, p, span, div {
     background-color: #1d8bd8; }
 .left_bar .details {
   background-color: #e0e0e2; }
+  .left_bar .details .personal .reference h4 {
+    font-weight: bold;
+    font-size: 17px; }
+  .left_bar .details .personal .reference .bold {
+    font-weight: bold; }
   .left_bar .details .items h3 {
     text-transform: uppercase;
     font-weight: bold; }
+  .left_bar .details .items .upper {
+    text-transform: uppercase; }
   .left_bar .details .items .data {
     display: flex; }
     .left_bar .details .items .data .title {
@@ -49,6 +56,8 @@ h1, h2, h3, h4, p, span, div {
   text-transform: uppercase;
   color: #1d9feb;
   letter-spacing: 5px; }
+.right_bar .position {
+  font-size: 25px; }
 .right_bar .experience {
   background-color: #e0e1e3; }
   .right_bar .experience h3 {
@@ -56,5 +65,48 @@ h1, h2, h3, h4, p, span, div {
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 10px; }
+.right_bar .history {
+  display: flex; }
+  .right_bar .history .function {
+    width: 40%; }
+    .right_bar .history .function .bold {
+      font-weight: bold; }
+  .right_bar .history .place {
+    width: 60%; }
+    .right_bar .history .place .big {
+      text-transform: uppercase;
+      color: #6E6E6E; }
+  .right_bar .history .university {
+    width: 40%; }
+    .right_bar .history .university .bold {
+      font-weight: bold; }
+  .right_bar .history .stage {
+    width: 60%; }
+    .right_bar .history .stage .big {
+      text-transform: uppercase;
+      color: #6E6E6E; }
+.right_bar .hobbies {
+  display: flex; }
+  .right_bar .hobbies .fa {
+    font-size: 60px;
+    color: #1d9feb; }
+  .right_bar .hobbies .fat {
+    font-weight: bold;
+    margin-top: 20px; }
+  .right_bar .hobbies .music {
+    width: 20%;
+    text-align: center; }
+  .right_bar .hobbies .traveling {
+    width: 20%;
+    text-align: center; }
+  .right_bar .hobbies .photo {
+    width: 20%;
+    text-align: center; }
+  .right_bar .hobbies .reading {
+    width: 20%;
+    text-align: center; }
+  .right_bar .hobbies .football {
+    width: 20%;
+    text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

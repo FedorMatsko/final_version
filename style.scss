@@ -48,10 +48,24 @@ h1,h2,h3,h4,p,span,div{
   }
   .details{
     background-color: #e0e0e2;
+    .personal{
+      .reference{
+        h4{
+          font-weight: bold;
+          font-size: 17px;
+        }
+        .bold{
+          font-weight: bold;
+        }
+      }
+    }
     .items{
       h3{
         text-transform: uppercase;
         font-weight: bold;
+      }
+      .upper{
+        text-transform: uppercase;
       }
       .data{
         display: flex;
@@ -78,6 +92,9 @@ h1,h2,h3,h4,p,span,div{
     letter-spacing: 5px;
 
   }
+  .position{
+      font-size: 25px;
+  }
   .experience{
     background-color: #e0e1e3;
     h3{
@@ -85,6 +102,66 @@ h1,h2,h3,h4,p,span,div{
       font-weight: bold;
       margin-top: 10px;
       margin-bottom: 10px;
+    }
+  }
+  .history{
+    display: flex;
+    .function{
+      width:40%;
+      .bold{
+        font-weight: bold;
+      }
+    }
+    .place{
+      width:60%;
+      .big{
+        text-transform: uppercase;
+        color: #6E6E6E;
+      }
+    }
+    .university{
+      width:40%;
+      .bold{
+        font-weight: bold;
+      }
+    }
+    .stage{
+      width:60%;
+      .big{
+        text-transform: uppercase;
+        color: #6E6E6E;
+      }
+    }
+  }
+  .hobbies{
+    display: flex;
+    .fa{
+      font-size: 60px;
+      color: #1d9feb;
+    }
+    .fat{
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .music{
+      width:20%;
+      text-align: center;
+    }
+    .traveling{
+      width:20%;
+      text-align: center;
+    }
+    .photo{
+      width:20%;
+      text-align: center;
+    }
+    .reading{
+      width:20%;
+      text-align: center;
+    }
+    .football{
+      width:20%;
+      text-align: center;
     }
   }
 }
